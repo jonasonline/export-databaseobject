@@ -12,16 +12,12 @@ function Export-DatabaseObject {
         [Parameter(Mandatory = $false)]
         [string]$DBList = 'ALL',
         [Parameter(Mandatory = $false)]
-        [Alias("inct")]
         [bool]$IncludeTables = $true,
         [Parameter(Mandatory = $false)]
-        [Alias("incv")]
         [bool]$IncludeViews = $true,
         [Parameter(Mandatory = $false)]
-        [Alias("incsp")]
         [bool]$IncludeSP = $true,
         [Parameter(Mandatory = $false)]
-        [Alias("incu")]
         [bool]$IncludeUDF = $true,
         [Parameter(Mandatory = $false)]
         [bool]$ScriptAsSingleFile = $true
